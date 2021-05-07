@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class StudytestApplication {
     @RequestMapping("/index")
     String index() {
-        System.out.println("Hello Spring Boot study test");
-        return "Hello Spring Boot study test";
+        System.out.println("Hello Spring Boot study test 234");
+        return "Hello Spring Boot study test 432";
     }
     public static void main(String[] args) {
 
